@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\nazar\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\nazar\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Durak Client.-1285449647.00" t="ExcludeRecursive" />
+    <e p="C:\Users\nazar\RiderProjects\Durak Client" t="IncludeFlat">
+      <e p="Durak Client" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DataType" t="Include">
+          <e p="CardType.cs" t="Include" />
+          <e p="Rank.cs" t="Include" />
+          <e p="Suit.cs" t="Include" />
+        </e>
+        <e p="Durak Client.csproj" t="IncludeRecursive" />
+        <e p="Game.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net6.0" t="Include">
+              <e p="Durak Client.AssemblyInfo.cs" t="Include" />
+              <e p="Durak Client.GlobalUsings.g.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Durak Client.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
