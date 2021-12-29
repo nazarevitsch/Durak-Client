@@ -62,13 +62,13 @@ namespace Durak_Client.Networking
                     }
                     catch (Exception e)
                     {
-                        Console.WriteLine("Something wrong on command parse");
+                        Console.WriteLine("Something wrong on command parse.");
                         Console.WriteLine(e);
                     }
                 }
                 catch
                 {
-                    Console.WriteLine("Connection was interrupted");
+                    Console.WriteLine("Connection was interrupted.");
                     _messageThread.Join();
                     break;
                 }

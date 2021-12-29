@@ -30,7 +30,7 @@ namespace Durak_Client.View
                 return (PlayerAction) Int32.Parse(userInput);
             }
 
-            throw new Exception("Aaaaaaaaaaaaaaaa");
+            throw new Exception("Input can't be parsed.");
         }
     }
 }
