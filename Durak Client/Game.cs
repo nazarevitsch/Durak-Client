@@ -36,7 +36,26 @@ namespace Durak_Client
 
             if (cmd.Code == CommandCodes.YouTurn)
             {
+                GameView.ShowGameState(cmd);
+                var action = PlayerInput.GetAction();
+                command.Code = action.ToString();
+                
+                if (action is PlayerAction.ThrowCards or PlayerAction.BeatCards)
+                {
+                    var list = PlayerInput.GetSelectedCards();
+                    
+                    var cards = new List<CardType>();
+                    
+                    foreach (var i in list)
+                    {
+                        cards.Add(cmd.Cards[i]);
+                    }
 
+                    command.Cards = cards;
+
+                }
+                
+                client.SendCommandToServer(command);
             }
         }
 
