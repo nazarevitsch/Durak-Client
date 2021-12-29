@@ -10,5 +10,10 @@
             rank = _rank;
             suit = _suit;
         }
+        
+        public override string ToString()
+        {
+            return $"Card(R:{Rank.ToString()};S:{Suit.ToString()})";
+        }
     }
 }

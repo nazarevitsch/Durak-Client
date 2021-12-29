@@ -4,11 +4,23 @@
     <projectFile>Durak Client/Durak Client.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec27a6ed-8e6d-42b8-acaf-c6709ff93ace" name="Default Changelist" comment="" />
+    <list default="true" id="ec27a6ed-8e6d-42b8-acaf-c6709ff93ace" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Durak Client/DataType/CardCouplet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Durak Client/DataType/DeckType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Durak Client/DataType/GameState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Durak Client/DataType/Player.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Durak Client/DataType/Point.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Durak Client/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Durak Client/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Durak Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Durak Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Durak Client/DataType/CardType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Durak Client/DataType/CardType.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -16,9 +28,14 @@
         <option value="$PROJECT_DIR$/Durak Client/.gitignore" />
         <option value="$PROJECT_DIR$/Durak Client/Program.cs" />
         <option value="$PROJECT_DIR$/Durak Client/Game.cs" />
-        <option value="$PROJECT_DIR$/Durak Client/DataType/CardType.cs" />
         <option value="$PROJECT_DIR$/Durak Client/DataType/Rank.cs" />
         <option value="$PROJECT_DIR$/Durak Client/DataType/Suit.cs" />
+        <option value="$PROJECT_DIR$/Durak Client/DataType/Player.cs" />
+        <option value="$PROJECT_DIR$/Durak Client/DataType/CardType.cs" />
+        <option value="$PROJECT_DIR$/Durak Client/DataType/GameState.cs" />
+        <option value="$PROJECT_DIR$/Durak Client/DataType/CardCouplet.cs" />
+        <option value="$PROJECT_DIR$/Durak Client/DataType/DeckType.cs" />
+        <option value="$PROJECT_DIR$/Durak Client/DataType/Point.cs" />
       </list>
     </option>
   </component>
@@ -62,34 +79,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640618506943</updated>
-      <workItem from="1640618518034" duration="1741000" />
+      <workItem from="1640618518034" duration="5146000" />
+      <workItem from="1640779224851" duration="289000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="723" height="210" key="GridCell.Tab.0.bottom" timestamp="1640621170700">
+    <state width="723" height="210" key="GridCell.Tab.0.bottom" timestamp="1640724224076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1640621170700" />
-    <state width="723" height="210" key="GridCell.Tab.0.center" timestamp="1640621170698">
+    <state width="723" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1640724224076" />
+    <state width="723" height="210" key="GridCell.Tab.0.center" timestamp="1640724224072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1640621170698" />
-    <state width="723" height="210" key="GridCell.Tab.0.left" timestamp="1640621170698">
+    <state width="723" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1640724224072" />
+    <state width="723" height="210" key="GridCell.Tab.0.left" timestamp="1640724224070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1640621170698" />
-    <state width="723" height="210" key="GridCell.Tab.0.right" timestamp="1640621170699">
+    <state width="723" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1640724224070" />
+    <state width="723" height="210" key="GridCell.Tab.0.right" timestamp="1640724224074">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1640621170699" />
+    <state width="723" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1640724224074" />
   </component>
 </project>

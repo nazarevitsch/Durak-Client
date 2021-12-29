@@ -8,7 +8,12 @@
         <e p=".gitignore" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="DataType" t="Include">
+          <e p="CardCouplet.cs" t="Include" />
           <e p="CardType.cs" t="Include" />
+          <e p="DeckType.cs" t="Include" />
+          <e p="GameState.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="Point.cs" t="Include" />
           <e p="Rank.cs" t="Include" />
           <e p="Suit.cs" t="Include" />
         </e>
