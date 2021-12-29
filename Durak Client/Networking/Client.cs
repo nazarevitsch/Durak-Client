@@ -1,4 +1,5 @@
-﻿using System.Net.Sockets;
+﻿using System;
+using System.Net.Sockets;
 using System.Text;
 using System.Text.Json;
 using System.Threading;
@@ -14,6 +15,9 @@ namespace Durak_Client.Networking
         private Thread _messageThread;
         private Player _player;
         public NetworkStream Stream { get; private set; }
+        public delegate void GotCommand(Command cmd);
+
+        public event GotCommand OnGotCommand;
 
         public Client(string address, int port)
         {
@@ -37,7 +41,38 @@ namespace Durak_Client.Networking
         
         private void ReceiveMessage()
         {
-            // Recieve Mesages
+            while (true)
+            {
+                try
+                {
+                    byte[] data = new byte[120];
+                    StringBuilder builder = new();
+                    int bytes;
+                    do
+                    {
+                        bytes = Stream.Read(data, 0, data.Length);
+                        builder.Append(Encoding.Unicode.GetString(data, 0, bytes));
+                    } while (Stream.DataAvailable);
+
+                    string message = builder.ToString();
+                    try
+                    {
+                        var cmd = JsonSerializer.Deserialize<Command>(message);
+                        OnGotCommand?.Invoke(cmd);
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("Something wrong on command parse");
+                        Console.WriteLine(e);
+                    }
+                }
+                catch
+                {
+                    Console.WriteLine("Connection was interrupted");
+                    _messageThread.Join();
+                    break;
+                }
+            }
         }
         
         public void SendCommandToServer(Command cmd)

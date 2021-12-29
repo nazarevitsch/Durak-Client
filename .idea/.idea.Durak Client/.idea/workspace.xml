@@ -23,12 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec27a6ed-8e6d-42b8-acaf-c6709ff93ace" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Durak Client/Networking/Client.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Durak Client/Networking/Command.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Durak Client/Networking/CommandCodes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Durak Client/View/GameView.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Durak Client/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Durak Client/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Durak Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Durak Client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Durak Client/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Durak Client/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Durak Client/Networking/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Durak Client/Networking/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Durak Client/Networking/Command.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Durak Client/Networking/Command.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Durak Client/Networking/CommandCodes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Durak Client/Networking/CommandCodes.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Durak Client/.gitignore" />
-        <option value="$PROJECT_DIR$/Durak Client/Program.cs" />
         <option value="$PROJECT_DIR$/Durak Client/DataType/Rank.cs" />
         <option value="$PROJECT_DIR$/Durak Client/DataType/Suit.cs" />
         <option value="$PROJECT_DIR$/Durak Client/DataType/Player.cs" />
@@ -53,10 +53,12 @@
         <option value="$PROJECT_DIR$/Durak Client/DataType/Point.cs" />
         <option value="$PROJECT_DIR$/Durak Client/DataType/PlayerAction.cs" />
         <option value="$PROJECT_DIR$/Durak Client/Networking/Comand.cs" />
+        <option value="$PROJECT_DIR$/Durak Client/Program.cs" />
         <option value="$PROJECT_DIR$/Durak Client/Networking/Command.cs" />
-        <option value="$PROJECT_DIR$/Durak Client/Networking/Client.cs" />
-        <option value="$PROJECT_DIR$/Durak Client/Game.cs" />
         <option value="$PROJECT_DIR$/Durak Client/Networking/CommandCodes.cs" />
+        <option value="$PROJECT_DIR$/Durak Client/View/GameView.cs" />
+        <option value="$PROJECT_DIR$/Durak Client/Game.cs" />
+        <option value="$PROJECT_DIR$/Durak Client/Networking/Client.cs" />
       </list>
     </option>
   </component>
@@ -101,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640618506943</updated>
       <workItem from="1640618518034" duration="5146000" />
-      <workItem from="1640779224851" duration="2331000" />
+      <workItem from="1640779224851" duration="6015000" />
     </task>
     <servers />
   </component>
