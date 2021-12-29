@@ -13,12 +13,18 @@
           <e p="DeckType.cs" t="Include" />
           <e p="GameState.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="PlayerAction.cs" t="Include" />
           <e p="Point.cs" t="Include" />
           <e p="Rank.cs" t="Include" />
           <e p="Suit.cs" t="Include" />
         </e>
         <e p="Durak Client.csproj" t="IncludeRecursive" />
         <e p="Game.cs" t="Include" />
+        <e p="Networking" t="Include">
+          <e p="Client.cs" t="Include" />
+          <e p="Command.cs" t="Include" />
+          <e p="CommandCodes.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="net6.0" t="Include">
